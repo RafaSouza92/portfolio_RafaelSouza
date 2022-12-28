@@ -184,13 +184,23 @@
     <section class="contact" id="contact">
       <h1>Contact</h1>
       <div class="form-container">
-        <form action="" class="form">
+        <form
+          action="https://formsubmit.co/rafael.msouza92@gmail.com"
+          method="post"
+          class="form"
+        >
           <label for="name">Name</label>
-          <input type="text" />
+          <input type="text" required />
           <label for="email">Email</label>
-          <input type="email" name="" id="email" />
+          <input type="email" name="email" id="email" required />
           <label for="message">Send a message</label>
           <textarea name="message" id="message" class="message"></textarea>
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://portfolio-rafael-souza.netlify.app///thanks.html"
+          />
           <button type="submit" class="send">Send</button>
         </form>
       </div>
