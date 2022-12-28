@@ -1,0 +1,47 @@
+.contact {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+.contact h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #598392;
+}
+.form-container {
+  display: block;
+  margin: 50px auto;
+  max-width: 650px;
+  background-color: #01161e;
+}
+.form {
+  padding: 30px;
+  color: #aec3b0;
+  font-size: 1.5rem;
+}
+.form input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  outline: none;
+}
+#message {
+  height: 80px;
+  width: 100%;
+}
+
+.send {
+  width: 100px;
+  margin: 20px auto;
+  display: block;
+  padding: 5px;
+  background-color: #598392;
+  color: #01161e;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 40px;
+  border: none;
+}

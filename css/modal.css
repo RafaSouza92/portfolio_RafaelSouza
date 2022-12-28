@@ -1,0 +1,37 @@
+.img-modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  flex: 1 1 0;
+  justify-content: center;
+  position: fixed;
+  z-index: 3000;
+}
+.img-modal.modal-active {
+  display: flex !important;
+}
+.modal-content {
+  max-width: 1200px;
+  position: relative;
+  display: block;
+  flex: 1 1 0;
+}
+.close-modal {
+  color: #01161e;
+  background-color: #aec3b0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  width: 50px;
+  height: 50px;
+  z-index: 300;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  cursor: pointer;
+}

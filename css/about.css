@@ -1,0 +1,86 @@
+.about {
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.picture img {
+  border-radius: 100%;
+  max-width: 250px;
+  margin-top: 40px;
+}
+.about-text {
+  font-size: 3rem;
+  line-height: 1;
+  color: #598392;
+  margin-top: 100px;
+}
+.about-text strong {
+  color: #aec3b0;
+}
+.button {
+  width: 120px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #aec3b0;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: #598392;
+}
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button a {
+  color: #598392;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.about-me {
+  max-width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.about-me h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #598392;
+}
+.about-me p {
+  color: #aec3b0;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  text-align: center;
+  max-width: 600px;
+}

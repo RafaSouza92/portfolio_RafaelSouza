@@ -1,0 +1,17 @@
+.footer {
+  max-width: 1200px;
+  margin: 20px auto;
+  border-top: 2px solid #aec3b0;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+.footer strong {
+  color: #598392;
+}
+.footer p {
+  margin-top: 10px;
+}
+.footer a {
+  color: #fff;
+}

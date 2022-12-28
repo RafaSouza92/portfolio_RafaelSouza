@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  width: 100%;
+}
+body {
+  background-color: #01161e;
+  font-family: "Source Sans Pro", sans-serif;
+}
+ul,
+li {
+  list-style: none;
+}
+.js-scroll {
+  opacity: 0;
+}
+.js-scroll.ativo {
+  transition: 0.2s;
+  opacity: 1;
+}
+.back-to-top {
+  width: 30px;
+  height: 30px;
+  opacity: 0.5;
+  border-radius: 50px;
+  background-color: #aec3b0;
+  right: 10px;
+  bottom: 10px;
+  z-index: 10000;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

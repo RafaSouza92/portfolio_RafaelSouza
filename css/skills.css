@@ -1,0 +1,76 @@
+.skills {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.skills h1 {
+  font-size: 3rem;
+  color: #598392;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.icons-text {
+  font-size: 1.5rem;
+  color: #aec3b0;
+  max-width: 600px;
+  padding: 20px;
+  text-align: center;
+  word-spacing: -2px;
+  margin: 0 auto;
+  border-bottom: 2px solid #aec3b0;
+}
+.icons-list {
+  margin: 50px auto;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  cursor: pointer;
+  flex: 1 1 0;
+}
+.icons-list img {
+  animation: upAndDown 1.5s linear infinite alternate;
+}
+
+@keyframes upAndDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+  0% {
+    transform: translateY(0);
+  }
+}
+
+.card {
+  max-width: 200px;
+  padding: 10px;
+  opacity: 0.5;
+  flex: 1 1 0;
+}
+.icons-list .card.active {
+  opacity: 1;
+}
+.icons-content > section {
+  animation: up 1.2s;
+}
+
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translate(15px);
+  }
+  to {
+    opacity: 1;
+  }
+}
