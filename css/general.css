@@ -12,7 +12,7 @@ img {
   width: 100%;
 }
 body {
-  background-color: #01161e;
+  background-color: #242423;
   font-family: "Source Sans Pro", sans-serif;
 }
 ul,
@@ -29,9 +29,9 @@ li {
 .back-to-top {
   width: 30px;
   height: 30px;
-  opacity: 0.5;
+  opacity: 0.8;
   border-radius: 50px;
-  background-color: #aec3b0;
+  background-color: #00a6fb;
   right: 10px;
   bottom: 10px;
   z-index: 10000;

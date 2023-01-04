@@ -6,10 +6,10 @@
   margin: 0 auto;
   padding: 20px;
   flex-wrap: wrap;
-  border-bottom: 2px solid #aec3b0;
+  border-bottom: 1px solid #c6c5b9;
 }
 .header h1 a {
-  color: #aec3b0;
+  color: #00a6fb;
 }
 
 .menu {
@@ -19,15 +19,14 @@
   flex-wrap: wrap;
 }
 #projects-link {
-  background-color: #aec3b0;
-  color: #01161e;
+  background-color: #cfdbd5;
+  color: #242423;
   border-radius: 10px;
   padding: 5px;
 }
 #projects-link:hover {
-  background-color: #01161e;
-  color: #aec3b0;
-  border: 1px solid #aec3b0;
+  background-color: #00a6fb;
+  color: #fdfdff;
 }
 @keyframes mobile-anime {
   0% {
@@ -95,7 +94,7 @@
   display: none;
 }
 .menu a {
-  color: #aec3b0;
+  color: #cfdbd5;
   font-size: 18px;
   padding: 10px;
   font-weight: 700;

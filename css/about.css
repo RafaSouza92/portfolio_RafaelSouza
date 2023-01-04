@@ -17,17 +17,17 @@
 .about-text {
   font-size: 3rem;
   line-height: 1;
-  color: #598392;
+  color: #e8eddf;
   margin-top: 100px;
 }
 .about-text strong {
-  color: #aec3b0;
+  color: #00a6fb;
 }
 .button {
   width: 120px;
   padding: 10px;
   border-radius: 30px;
-  background-color: #aec3b0;
+  background-color: #00a6fb;
   display: inline-block;
   border: none;
   cursor: pointer;
@@ -40,7 +40,7 @@
   display: inline-block;
   position: relative;
   transition: 0.5s;
-  color: #598392;
+  color: #e8eddf;
 }
 .button span:after {
   content: "\00bb";
@@ -60,7 +60,7 @@
   right: 0;
 }
 .button a {
-  color: #598392;
+  color: #e8eddf;
   font-weight: 700;
   font-size: 1rem;
 }
@@ -75,10 +75,10 @@
 .about-me h2 {
   text-align: center;
   font-size: 2rem;
-  color: #598392;
+  color: #cfdbd5;
 }
 .about-me p {
-  color: #aec3b0;
+  color: #e8eddf;
   font-size: 1.5rem;
   margin-top: 20px;
   text-align: center;

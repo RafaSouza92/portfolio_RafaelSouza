@@ -1,21 +1,23 @@
 .contact {
   max-width: 1200px;
+  height: 100%;
   margin: 50px auto;
+  padding: 20px;
 }
 .contact h1 {
   text-align: center;
   font-size: 3rem;
-  color: #598392;
+  color: #cfdbd5;
 }
 .form-container {
   display: block;
   margin: 50px auto;
   max-width: 650px;
-  background-color: #01161e;
+  background-color: #333533;
 }
 .form {
   padding: 30px;
-  color: #aec3b0;
+  color: #cfdbd5;
   font-size: 1.5rem;
 }
 .form input {
@@ -38,10 +40,14 @@
   margin: 20px auto;
   display: block;
   padding: 5px;
-  background-color: #598392;
-  color: #01161e;
+  background-color: #00a6fb;
+  color: #cfdbd5;
   font-size: 1.2rem;
   cursor: pointer;
   border-radius: 40px;
   border: none;
+}
+.send:hover {
+  background-color: #aec3b0;
+  color: #333533;
 }

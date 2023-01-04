@@ -1,28 +1,29 @@
 .skills {
-  max-width: 1200px;
-  margin: 50px auto;
+  max-width: 100%;
+  height: 100vh;
   padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .skills h1 {
   font-size: 3rem;
-  color: #598392;
+  color: #cfdbd5;
   text-align: center;
-  margin: 0 auto;
+  margin-top: 50px;
 }
 
 .icons-text {
   font-size: 1.5rem;
-  color: #aec3b0;
+  color: #fdfdff;
   max-width: 600px;
   padding: 20px;
   text-align: center;
-  word-spacing: -2px;
   margin: 0 auto;
-  border-bottom: 2px solid #aec3b0;
 }
 .icons-list {
-  margin: 50px auto;
   align-self: center;
   justify-content: center;
   text-align: center;
@@ -34,6 +35,8 @@
 }
 .icons-list img {
   animation: upAndDown 1.5s linear infinite alternate;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 @keyframes upAndDown {
